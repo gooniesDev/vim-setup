@@ -4,6 +4,7 @@ Siéntete libre de poder tomar mi ".vimrc" para que lo puedas utilizar en tu arc
 
 ## Versión
 Actualmente estoy utilizando la version 8.2
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/1022px-Vimlogo.svg.png" />
 ```bash
 vim --version
 
