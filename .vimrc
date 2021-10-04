@@ -42,6 +42,16 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 let g:gruvbox_italic=1
 colorscheme gruvbox
 
+" kite (autocompletador de código) se instala desde su sitio web oficial https://www.kite.com
+
+" Python, JavaScript, Go
+let g:kite_supported_languages = ['python', 'javascript', 'go']
+
+" Otras configuraciones:
+"Soporte para todos los lenguajes 
+" let g:kite_supported_languages = ['*']
+"Desactivar kite 
+" let g:kite_supported_languages = []
 " }}}
 
 " MAPPINGS --------------------------------------------------------------- {{{
@@ -64,6 +74,7 @@ nnoremap <LEADER>q :q<CR>
 " Forzar salida
 nnoremap <LEADER>qq :q!<CR>
 
-
+" Abrir NERDTree
+nnoremap <LEADER>nt :NERDTree<Cr>
 
 " }}}
